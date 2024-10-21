@@ -1,10 +1,16 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  height: 100vh; /* Utilise la hauteur de la fenêtre */
+  display: flex;
+  flex-direction: column; /* Aligne les enfants en colonne */
 }
-
+.main {
+  flex: 1; /* Prend tout l'espace disponible entre le header et le footer */
+  padding: 2rem; /* Ajoute un padding autour du main */
+  display: flex; /* Permet d'ajouter des éléments à l'intérieur */
+  flex-direction: column; /* Aligne le contenu du main en colonne */
+  justify-content: center; /* Centre le contenu verticalement */
+  align-items: center; /* Centre le contenu horizontalement */
+}
 .logo {
   height: 6em;
   padding: 1.5em;

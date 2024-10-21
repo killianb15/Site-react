@@ -1,0 +1,7 @@
+/* src/components/main/main.css */
+.app {
+    padding: 20px;
+    padding-bottom: 120px; /* Doit être supérieur à la hauteur du footer */
+    padding-top: 120px;
+    color: #ffffff;
+}

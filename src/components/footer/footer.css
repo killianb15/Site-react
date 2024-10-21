@@ -1,0 +1,31 @@
+/* src/components/footer/footer.css */
+.footer {
+    width: 100%;
+    height: 10%; /* Hauteur de ton footer */
+    padding: 20px 0;
+    color: white; /* Couleur du texte */
+    background: linear-gradient(to right, #646cff, #535bf2); /* Dégradé */
+    text-align: center;
+    position: fixed; /* Fixe le footer en bas de la fenêtre */
+    bottom: 0; /* Positionne le footer en bas */
+    left: 0; /* Assure que le footer commence à gauche */
+    z-index: 1000; /* Assure que le footer soit au-dessus du contenu */
+}
+
+.footer a {
+    margin: 0 15px; /* Espacement entre les liens */
+    color: white; /* Couleur des liens */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.footer a:hover {
+    color: #e0e0e0; /* Changer la couleur au survol */
+}
+
+.social-icon {
+    transition: transform 0.3s; /* Transition pour agrandissement */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Agrandir les icônes au survol */
+}

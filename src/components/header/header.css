@@ -1,0 +1,15 @@
+.header {
+    width: 100%; /* Prend toute la largeur */
+    height: 10%; /* Ajuster selon la hauteur souhaitée */
+    padding: 20px 0; /* Espacement intérieur */
+    color: white;
+
+    background: linear-gradient(to right, #646cff, #535bf2); /* Dégradé */
+    text-align: center; /* Centre le texte */
+    text-align: top;
+    position: fixed; /* Fixe le footer en bas de la fenêtre */
+    top: 0; /* Positionne le header tout en haut */
+    left: 0; /* Assure que le header commence à gauche */
+    margin: 0; /* Évite tout espacement indésirable */
+    z-index: 1000; /* Assure que le header est au-dessus des autres éléments */
+}
